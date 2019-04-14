@@ -73,8 +73,8 @@ label {
  */
 
 .pure-button {
-    background-color: #91A8d0;
-    color: white;
+    background-color: white;
+    color: #91A8d0;
     padding: 0.5em 2em;
     border-radius: 5px;
 }
