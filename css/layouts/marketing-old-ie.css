@@ -73,7 +73,7 @@ label {
  */
 
 .pure-button {
-    background-color: #1f8dd6;
+    background-color: #91A8d0;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
@@ -81,7 +81,7 @@ label {
 
 a.pure-button-primary {
     background: white;
-    color: #1f8dd6;
+    color: #91A8d0;
     border-radius: 5px;
     font-size: 120%;
 }
@@ -135,7 +135,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background: #91A8d0;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -220,7 +220,7 @@ a.pure-button-primary {
 /* This is the class used for the content sub-headers (<h3>) */
 
 .content-subhead {
-    color: #1f8dd6;
+    color: #91A8d0;
 }
 
 .content-subhead i {
