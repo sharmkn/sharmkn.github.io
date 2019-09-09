@@ -1,0 +1,86 @@
+html {
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+  }
+  
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    top: 50%;
+    transform: translate(0%, 50%);
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  
+  html {
+    background-color: #bbd1f3;
+  }
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 0 30px 30px 30px;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #314d7a;
+    text-shadow: 3px 3px 1px transparent;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .about {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 31%;
+    margin-left: -31px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .projects {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 51%;
+    margin-left: -51px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contact {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 71%;
+    margin-left: -71px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
