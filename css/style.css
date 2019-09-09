@@ -34,6 +34,8 @@ html {
     padding: 20px 0;
     color: #314d7a;
     text-shadow: 3px 3px 1px transparent;
+    position: relative;
+    animation: animatebottom 4s;
   }
   
   img {
@@ -41,7 +43,7 @@ html {
     margin: 0 auto;
   }
   
-  button {
+  a {
     background-color: transparent;
     border: none;
     color: white;
@@ -61,6 +63,7 @@ html {
     margin-left: -31px;
     top: 50%;
     transform: translate(-50%, -50%);
+    animation: opac 3s;
   }
 
   .projects {
@@ -72,6 +75,7 @@ html {
     margin-left: -51px;
     top: 50%;
     transform: translate(-50%, -50%);
+    animation: opac 3s;
   }
 
   .contact {
@@ -83,4 +87,18 @@ html {
     margin-left: -71px;
     top: 50%;
     transform: translate(-50%, -50%);
+    animation: opac 3s;
   }
+  
+  @keyframes 
+  opac{
+    from{opacity:0}
+    to{opacity:1}
+  }
+  @keyframes
+  animatebottom{
+    from{bottom:-300px;opacity:0}
+    to{bottom:0;opacity:1}
+  }
+
+  
