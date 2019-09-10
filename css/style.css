@@ -138,3 +138,20 @@
     overflow-x: hidden;
     padding-top: 20px;
   }
+
+  @media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      text-align: center;
+      float: none;
+    }
+  }
