@@ -19,7 +19,7 @@
   
   
   html {
-    background-color: #bbd1f3;
+    background-color: #aeb3f3;
     width:100%;
     height:100%;
   }
@@ -31,7 +31,7 @@
     padding:12px 24px!important;
     margin-top:16px;
     margin-bottom:16px;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px #4149c5;
   }
   
   h1 {
