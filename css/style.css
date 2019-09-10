@@ -77,7 +77,6 @@
   }
 
   .projects {
-    background-color: #f7cfcf;
     width: 100px;
     height: 100px;
     position: absolute;
@@ -117,6 +116,7 @@
     padding: 20px;
     border-style: solid;
     border-color: #e59292;
+    background-color: #f7cfcf;
     box-shadow: 10px 10px #e59292;
   }
 
