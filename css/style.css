@@ -8,7 +8,7 @@
     font-size: 30px;
     text-align: center;
     top: 20%;
-    transform: translate(0%, 50%);
+    transform: translate(0%, 0%);
   }
 
   h2{
@@ -43,7 +43,7 @@
   h1 {
     margin: 0;
     padding: 20px 0;
-    color: #314d7a;
+    color: #4d72ad;
     text-shadow: 3px 3px 1px transparent;
     position: relative;
     animation: opac 3s;
@@ -119,8 +119,10 @@
   }
 
   .programming{
-    background-color: #ffffff;
+    background-color: #e59292;
     border-radius: 8px;
+    padding: 4px 8px!important;
+    text-align:center!important;
   }
   
   .sidenav {
