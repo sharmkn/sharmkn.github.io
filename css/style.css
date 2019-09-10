@@ -20,13 +20,18 @@
   
   html {
     background-color: #bbd1f3;
+    width:100%;
+    height:100%;
   }
   
   body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: transparent;
-    padding: 0 30px 30px 30px;
+    width:100%;
+    height:100%;
+    margin: 50px auto;
+    background-color: #314d7a;
+    padding:12px 24px!important;
+    margin-top:16px;
+    margin-bottom:16px;
   }
   
   h1 {
