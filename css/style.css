@@ -114,8 +114,10 @@
 
   .project {
     float: left;
-    width: 33.33%;
     padding: 10px;
+    border-style: solid;
+    border-color: #e59292;
+    box-shadow: 10px 10px #e59292;
   }
 
   .programming{
