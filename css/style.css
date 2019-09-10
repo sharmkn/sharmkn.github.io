@@ -1,11 +1,11 @@
-html {
+  html {
     font-size: 10px;
     font-family: 'Muli', sans-serif;
   }
   
   
   h1 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     top: 50%;
     transform: translate(0%, 50%);
@@ -35,7 +35,7 @@ html {
     color: #314d7a;
     text-shadow: 3px 3px 1px transparent;
     position: relative;
-    animation: animatebottom 4s;
+    animation: opac 3s;
   }
   
   img {
@@ -101,4 +101,25 @@ html {
     to{bottom:0;opacity:1}
   }
 
+  .project {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .programming{
+    background-color: #ffffff
+    border-radius:8px
+  }
   
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
