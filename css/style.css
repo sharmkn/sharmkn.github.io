@@ -102,10 +102,10 @@
 
   .about, .projects, .contact {
     background-color: transparent;
-    width: 500px;
+    width: 600px;
     height: 200px;
     top: 50%;
-    transform: translate(-30%, 50%);
+    transform: translate(-20%, 50%);
     animation: opac 3s;
     float: left;
     width: 33.33%;
