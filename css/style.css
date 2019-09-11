@@ -131,8 +131,14 @@
     background-color: #e59292;
     border-radius: 8px;
     padding: 4px 8px!important;
-    text-align:center!important;
   }
+
+  /*.full-progress{
+    color:#000!important;
+    background-color:#f1f1f1!important;
+    border-radius: 8px;
+    padding: 4px 8px!important;
+  }*/
   
   .sidenav {
     height: 100%;
