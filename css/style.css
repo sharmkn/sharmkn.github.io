@@ -140,15 +140,24 @@
   }
 
   @media screen and (max-width: 700px) {
-    .sidenav {
+    /*.sidenav {
       width: 100%;
       height: auto;
       position: relative;
+    }*/
+    .sidebar{
+      width:50%;
+      float:right;
     }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
+    .sidebar a{
+      width:50%;
+      float:left;
+    }
+    /*.sidebar a {float: left;}
+    div.content {margin-left: 0;}*/
   }
 
+  
   @media screen and (max-width: 400px) {
     .sidenav a {
       text-align: center;
