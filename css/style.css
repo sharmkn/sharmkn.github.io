@@ -52,7 +52,6 @@
 
   .project, .links{
     max-width: 700px;
-    margin: 50px auto;
     column-count: 3;
     column-width: 300px;
     font-size: 12px;
@@ -159,13 +158,13 @@
     }
     div.content {margin-left: 0;}
     .about{
-      width: 100%;
+      width: 33.33%;
     }
     .projects{
-      width: 100%;
+      width: 33.33%;
     }
     .contact{
-      width: 100%;
+      width: 33.33%;
     }
   }
 
