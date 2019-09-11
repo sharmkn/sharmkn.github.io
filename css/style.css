@@ -20,18 +20,22 @@
   h2{
     color: #2e327b;
     text-align: center;
-    line-height:5px;
-    /*background-color: #f7cfcf;
+    line-height:20px;
+  }
+
+  .projects-header{
+    background-color: #f7cfcf;
     padding:12px 12px!important;
     margin-top:16px;
     margin-bottom:16px;
     border-style: solid;
     border-color: #e59292;
-    box-shadow: 10px 10px #e59292;*/
+    box-shadow: 10px 10px #e59292;
   }
 
   h3{
     line-height:0px;
+    color: #2e327b;
   }
   
   p, li {
@@ -92,38 +96,12 @@
     background-color: transparent;
     width: 500px;
     height: 200px;
-    /*position: absolute;
-    left: 31%;
-    margin-left: -31px;*/
     top: 50%;
     transform: translate(-30%, 50%);
     animation: opac 3s;
     float: left;
     width: 33.33%;
   }
-
-  /*.projects {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 51%;
-    margin-left: -51px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    animation: opac 3s;
-  }
-
-  .contact {
-    background-color: transparent;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 71%;
-    margin-left: -71px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    animation: opac 3s;
-  }*/
   
   @keyframes 
   opac{
@@ -166,14 +144,6 @@
       height: auto;
       position: relative;
     }
-    /*.sidebar{
-      width:50%;
-      float:right;
-    }
-    .sidebar a{
-      width:50%;
-      float:left;
-    }*/
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
     .about{
