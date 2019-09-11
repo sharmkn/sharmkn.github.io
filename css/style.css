@@ -9,6 +9,12 @@
     text-align: center;
     top: 20%;
     transform: translate(0%, 0%);
+    margin-top:16px;
+    margin-bottom:16px;
+    border-style: solid;
+    border-color: #e59292;
+    background-color: #f7cfcf;
+    box-shadow: 10px 10px #e59292;
   }
 
   h2{
