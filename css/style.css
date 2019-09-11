@@ -20,6 +20,7 @@
   h2{
     color: #2e327b;
     text-align: center;
+    line-height:5px;
     /*background-color: #f7cfcf;
     padding:12px 12px!important;
     margin-top:16px;
@@ -194,6 +195,7 @@
     }
   }
 
+  .about-me, .programming-experience,
   .project-1, .project-2, .project-3,
   .formal-contact, .informal-contact, .friends-sites{
     background-color: #f7cfcf;
