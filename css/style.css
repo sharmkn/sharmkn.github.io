@@ -21,6 +21,7 @@
     color: #2e327b;
     text-align: center;
     line-height:20px;
+    font-size: 16px;
   }
 
   .projects-header{
@@ -52,17 +53,16 @@
 
   .project, .links{
     max-width: 700px;
-    column-count: 3;
-    column-width: 300px;
+    column-width: 500px;
     font-size: 12px;
     margin-bottom:16px;
   }
   
   body {
-    max-width: 300px;
+    max-width: 350px;
     margin: 50px auto;
     column-count: 2;
-    column-width: 300px;
+    column-width: 350px;
     font-size: 12px;
     margin-bottom:16px;
     /*padding:6px 12px!important;
@@ -97,7 +97,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .about, .projects, .contact {
@@ -146,6 +146,11 @@
     padding-top: 20px;
   }
 
+  .sidenav a {
+    float: left;
+    text-align: center;
+  }
+
   @media screen and (max-width: 700px) {
     .sidenav {
       width: 100%;
@@ -186,4 +191,5 @@
     border-style: solid;
     border-color: #e59292;
     box-shadow: 10px 10px #e59292;
+    font-size: 12px;
   }
