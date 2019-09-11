@@ -20,13 +20,13 @@
   h2{
     color: #2e327b;
     text-align: center;
-    background-color: #f7cfcf;
+    /*background-color: #f7cfcf;
     padding:12px 12px!important;
     margin-top:16px;
     margin-bottom:16px;
     border-style: solid;
     border-color: #e59292;
-    box-shadow: 10px 10px #e59292;
+    box-shadow: 10px 10px #e59292;*/
   }
 
   h3{
@@ -87,19 +87,21 @@
     font-size: 16px;
   }
 
-  .about {
+  .about, .projects, .contact {
     background-color: transparent;
-    width: 100px;
-    height: 100px;
-    position: absolute;
+    width: 500px;
+    height: 200px;
+    /*position: absolute;
     left: 31%;
-    margin-left: -31px;
+    margin-left: -31px;*/
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, 50%);
     animation: opac 3s;
+    float: left;
+    width: 33.33%;
   }
 
-  .projects {
+  /*.projects {
     width: 100px;
     height: 100px;
     position: absolute;
@@ -120,7 +122,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     animation: opac 3s;
-  }
+  }*/
   
   @keyframes 
   opac{
@@ -158,29 +160,29 @@
   }
 
   @media screen and (max-width: 700px) {
-    /*.sidenav {
+    .sidenav {
       width: 100%;
       height: auto;
       position: relative;
-    }*/
-    .sidebar{
+    }
+    /*.sidebar{
       width:50%;
       float:right;
     }
     .sidebar a{
       width:50%;
       float:left;
-    }
-    /*.sidebar a {float: left;}
-    div.content {margin-left: 0;}*/
+    }*/
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
     .about{
-      position: relative;
+      width: 100%;
     }
     .projects{
-      position: relative;
+      width: 100%;
     }
     .contact{
-      position: relative;
+      width: 100%;
     }
   }
 
