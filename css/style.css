@@ -66,8 +66,8 @@
     font-size: 12px;
     margin-bottom:16px;
     /*padding:6px 12px!important;
-    margin-top:16px;
-    animation: animatebottom 3s;*/
+    margin-top:16px;*/
+    animation: animatebottom 3s;
     /*background-color: #f7cfcf;
     border-style: solid;
     border-color: #e59292;
@@ -150,6 +150,7 @@
     background-color: #e59292;
     overflow-x: hidden;
     padding-top: 20px;
+    text-align: center;
   }
 
   .sidenav a {
