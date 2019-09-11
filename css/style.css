@@ -22,6 +22,10 @@
     border-color: #e59292;
     box-shadow: 10px 10px #e59292;
   }
+
+  h3{
+    line-height:0px;
+  }
   
   p, li {
     font-size: 10px;
@@ -125,7 +129,7 @@
 
   .project {
     float: left;
-    padding: 20px;
+    padding: 10px;
   }
 
   .programming{
