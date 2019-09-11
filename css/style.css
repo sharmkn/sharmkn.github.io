@@ -155,6 +155,15 @@
     }
     /*.sidebar a {float: left;}
     div.content {margin-left: 0;}*/
+    .about{
+      position: relative;
+    }
+    .projects{
+      position: relative;
+    }
+    .contact{
+      position: relative;
+    }
   }
 
   
