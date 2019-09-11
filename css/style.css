@@ -1,5 +1,5 @@
   html {
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Muli', sans-serif;
   }
   
@@ -49,18 +49,27 @@
     width:100%;
     height:100%;
   }
+
+  .project, .links{
+    max-width: 700px;
+    margin: 50px auto;
+    column-count: 3;
+    column-width: 300px;
+    font-size: 12px;
+    margin-bottom:16px;
+  }
   
   body {
-    max-width: 300px;
+    max-width: 400px;
     margin: 50px auto;
     column-count: 2;
     column-width: 300px;
     font-size: 12px;
     margin-bottom:16px;
-    /*background-color: #f7cfcf;
-    padding:6px 12px!important;
+    /*padding:6px 12px!important;
     margin-top:16px;
-    
+    animation: animatebottom 3s;*/
+    /*background-color: #f7cfcf;
     border-style: solid;
     border-color: #e59292;
     box-shadow: 10px 10px #e59292;*/
@@ -144,7 +153,10 @@
       height: auto;
       position: relative;
     }
-    .sidebar a {float: left;}
+    .sidenav a {
+      float: left;
+      text-align: center;
+    }
     div.content {margin-left: 0;}
     .about{
       width: 100%;
