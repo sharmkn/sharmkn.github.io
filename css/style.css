@@ -60,11 +60,10 @@
   
   body {
     max-width: 350px;
-    margin: 50px auto;
+    margin: 20px auto;
     column-count: 2;
-    column-width: 350px;
-    font-size: 12px;
-    margin-bottom:16px;
+    column-width: 300px;
+    font-size: 12px;    margin-bottom:16px;
     /*padding:6px 12px!important;
     margin-top:16px;
     animation: animatebottom 3s;
@@ -102,8 +101,7 @@
 
   .about, .projects, .contact {
     background-color: transparent;
-    width: 600px;
-    height: 200px;
+    height: 300px;
     top: 50%;
     transform: translate(-20%, 50%);
     animation: opac 3s;
