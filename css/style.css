@@ -183,6 +183,10 @@
     }
   }
 
+  .headerimg {
+    width: 66.66%
+  }
+
   
   @media screen and (max-width: 400px) {
     .sidenav a {
