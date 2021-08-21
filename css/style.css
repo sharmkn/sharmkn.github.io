@@ -24,6 +24,11 @@
     font-size: 16px;
   }
 
+  .headshot {
+    max-width:10px;
+    max-height:10px
+  }
+
   .projects-header{
     background-color: #efd9ce;
     padding:12px 12px!important;
