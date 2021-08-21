@@ -12,9 +12,9 @@
     margin-top:16px;
     margin-bottom:16px;
     border-style: solid;
-    border-color: #e59292;
-    background-color: #f7cfcf;
-    box-shadow: 10px 10px #e59292;
+    border-color: #e9c7b6;
+    background-color: #efd9ce;
+    box-shadow: 10px 10px #e9c7b6;
   }
 
   h2{
@@ -25,13 +25,13 @@
   }
 
   .projects-header{
-    background-color: #f7cfcf;
+    background-color: #efd9ce;
     padding:12px 12px!important;
     margin-top:16px;
     margin-bottom:16px;
     border-style: solid;
-    border-color: #e59292;
-    box-shadow: 10px 10px #e59292;
+    border-color: #e9c7b6;
+    box-shadow: 10px 10px #e9c7b6;
   }
 
   h3{
@@ -67,10 +67,10 @@
     /*padding:6px 12px!important;
     margin-top:16px;
     animation: animatebottom 3s;
-    background-color: #f7cfcf;
+    background-color: #efd9ce;
     border-style: solid;
-    border-color: #e59292;
-    box-shadow: 10px 10px #e59292;*/
+    border-color: #e9c7b6;
+    box-shadow: 10px 10px #e9c7b6;*/
   }
   
   h1 {
@@ -126,7 +126,7 @@
   }
 
   .programming{
-    background-color: #e59292;
+    background-color: #e9c7b6;
     border-radius: 8px;
     padding: 4px 8px!important;
   }
@@ -145,7 +145,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #e59292;
+    background-color: #e9c7b6;
     overflow-x: hidden;
     padding-top: 20px;
     text-align: center;
@@ -189,12 +189,12 @@
   .about-me, .programming-experience,
   .project-1, .project-2, .project-3,
   .formal-contact, .informal-contact, .friends-sites{
-    background-color: #f7cfcf;
+    background-color: #efd9ce;
     padding:6px 12px!important;
     margin-top:16px;
     margin-bottom:16px;
     border-style: solid;
-    border-color: #e59292;
-    box-shadow: 10px 10px #e59292;
+    border-color: #e9c7b6;
+    box-shadow: 10px 10px #e9c7b6;
     font-size: 12px;
   }
