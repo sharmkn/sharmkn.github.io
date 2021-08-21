@@ -129,7 +129,7 @@
     background-color: transparent;
     height: 300px;
     top: 50%;
-    transform: translate(-20%, 50%);
+    transform: translate(-20%, 70%);
     animation: opac 3s;
     float: left;
     width: 33.33%;
