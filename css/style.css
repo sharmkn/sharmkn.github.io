@@ -134,9 +134,8 @@ a {
 
 .about, .projects, .contact {
   background-color: transparent;
-  height: 300px;
   top: 50%;
-  transform: translate(20%, 10vw);
+  transform: translate(22.5%, 10vw);
   animation: opac 3s;
   float: left;
 }
