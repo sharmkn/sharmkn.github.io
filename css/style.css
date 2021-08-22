@@ -193,7 +193,24 @@ animatebottom{
     height: auto;
     position: relative;
   }
-  .sidenav a {
+  
+  a {
+    background-color: transparent;
+    border: none;
+    color: #5373ac;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .about, .projects, .contact {
+    background-color: transparent;
+    height: 300px;
+    top: 50%;
+    transform: translate(20%, 10vw);
+    animation: opac 3s;
     float: left;
     text-align: center;
   }
